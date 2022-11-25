@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>Save</servlet-name>
+		<servlet-class>com.operations.SaveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Save</servlet-name>
+		<url-pattern>/SaveServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>View</servlet-name>
+		<servlet-class>com.operations.ViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>View</servlet-name>
+		<url-pattern>/ViewServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Edit</servlet-name>
+		<servlet-class>com.operations.EditServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Edit</servlet-name>
+		<url-pattern>/EditServlet</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>com.operations.EditServlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/EditServlet2</url-pattern>
+	</servlet-mapping>
+  
+  	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<servlet-class>com.operations.DeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/DeleteServlet</url-pattern>
+	</servlet-mapping>
+  
+  	<servlet>
+		<servlet-name>Search</servlet-name>
+		<servlet-class>com.operations.SearchServlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Search</servlet-name>
+		<url-pattern>/SearchServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SortRent</servlet-name>
+		<servlet-class>com.operations.SortByRent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SortRent</servlet-name>
+		<url-pattern>/sortrent</url-pattern>
+	</servlet-mapping>
+	
+
+  
+</web-app>
